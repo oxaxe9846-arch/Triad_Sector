@@ -83,18 +83,6 @@
     tags:
     - ClothMade # No chameleon
 
-- type: entity
-  parent: AlternateFoldableSleevesOnlyUniformBase
-  id: ClothingUniformJumpsuitTdfFlannel
-  name: TDF flannel jumpsuit
-  description: It's so beautiful outside.
-  components:
-  - type: Sprite
-    sprite: _Triad/Clothing/Uniforms/Jumpsuits/tdf_flannel.rsi
-  - type: Tag
-    tags:
-    - ClothMade # No chameleon
-
 # Triad frontier association High-Command
 - type: entity
   parent: ClothingUniformBase
@@ -132,26 +120,36 @@
   - type: Clothing
     sprite: _Triad/Clothing/Uniforms/Jumpsuits/worker_wear.rsi
 
-# Player factions
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitShiBusiness
-  name: SHI business jumpsuit
-  description: A sharp olive business suit worn by the staff of Shackford Heavy Industries.
+  id: ClothingUniformGhostlightTitled
+  name: Titled Ghostlight Uniform
+  description: The uniform worn by titled ghosts. They have a long way to go. Glory!
   components:
   - type: Sprite
-    sprite: _Triad/Clothing/Uniforms/Jumpsuits/shi_business.rsi
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_titled.rsi
   - type: Clothing
-    sprite: _Triad/Clothing/Uniforms/Jumpsuits/shi_business.rsi
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_titled.rsi
 
-# TFA uniforms
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTfaJanitor
-  name: TFA janitor jumpsuit
-  description: Keeping the sector clean, one puddle at a time.
+  id: ClothingUniformGhostlightNamed
+  name: Named Ghostlight Uniform
+  description: The uniform worn by named ghosts. Forget your old self; it holds you back. Glory
   components:
   - type: Sprite
-    sprite: _Triad/Clothing/Uniforms/Jumpsuits/tfa_janitor.rsi
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_named.rsi
   - type: Clothing
-    sprite: _Triad/Clothing/Uniforms/Jumpsuits/tfa_janitor.rsi
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_named.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformGhostlightCore
+  name: Core Ghostlight Uniform
+  description: The uniform worn by the ghostlight core. Freedom or termination. Glory to the ghostlight.
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_core.rsi
+  - type: Clothing
+    sprite: _Triad/Clothing/Uniforms/Jumpsuits/ghostlights_core.rsi
+

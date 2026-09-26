@@ -1,0 +1,48 @@
+# Base Prototype
+
+- type: latheRecipe
+  abstract: true
+  id: TriadSwordSheathRecipe
+  parent: NFBaseBeltRecipe
+  completetime: 2
+  materials:
+    Cloth: 1000
+    Durathread: 500
+    Plasteel: 200
+
+- type: latheRecipe
+  id: TriadJumpsuitShiRecipe
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingUniformSHIsuit
+
+- type: latheRecipe
+  id: TriadJumpsuitGhostlightCoreRecipe
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingUniformGhostlightCore
+
+- type: latheRecipe
+  id: TriadJumpsuitGhostlightNamedRecipe
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingUniformGhostlightNamed
+
+- type: latheRecipe
+  id: TriadJumpsuitGhostlightTitledRecipe
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingUniformGhostlightTitled
+
+
+#Belt Sheath
+- type: latheRecipe
+  id: LeatherSheath
+  parent: TriadSwordSheathRecipe
+  result: LeatherSheath
+
+- type: latheRecipe
+  id: TacticalSheath
+  parent: TriadSwordSheathRecipe
+  result: TacticalSheath
+  completetime: 3
+  materials:
+    Cloth: 800
+    Durathread: 1200
+    Plasteel: 500

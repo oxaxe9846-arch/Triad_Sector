@@ -145,6 +145,17 @@
     damageCoefficient: 0.1
 
 - type: entity
+  parent: ClothingBeltSecurity
+  id: ClothingBeltPuffJacket
+  name: Ghostlight Puff Jacket
+  description: Orange vests mark them as non-combatants. Many civilians died in the line of fire wearing this over a proper rig.
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Belt/ghostlights_puff_jacket.rsi
+  - type: Clothing
+    sprite: _Triad/Clothing/Belt/ghostlights_puff_jacket.rsi
+
+- type: entity
   parent: NFClothingBeltStorageBase
   id: MLA79Harness
   name: MLA-79 Harness
